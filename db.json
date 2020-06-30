@@ -10,7 +10,7 @@
       "id": 2,
       "topping": " Pepperoni",
       "size": "Large",
-      "vegetarian": "true"
+      "vegetarian": "false"
     },
     {
       "id": 3,
@@ -56,9 +56,9 @@
     },
     {
       "id": 10,
-      "topping": "Chicken",
-      "size": "Large",
-      "vegetarian": true
+      "topping": "Chicken Alfredo",
+      "size": "Medium",
+      "vegetarian": "false"
     }
   ]
 }
