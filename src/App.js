@@ -23,12 +23,12 @@ class App extends Component {
     })
   }
   
-  editPizzaValue = (e) => {
-    console.log("TARGET", e.target)
+  editPizzaValue = event => {
+    console.log("TARGET", event.target)
     this.setState({
       pizza: {
         ...this.state.pizza,
-        [e.target.name]: e.target.value
+        [event.target.name]: event.target.value
       }
     })
   }

@@ -8,7 +8,7 @@ console.log("FORM", props.pizzas)
       <div className="form-row">
         <div className="col-5">
             <input 
-              onChange={(e) => props.editPizzaValue(e)}
+              onChange={props.editPizzaValue}
               name='topping'
               type="text" 
               className="form-control" 
@@ -20,7 +20,7 @@ console.log("FORM", props.pizzas)
         </div>
         <div className="col">
           <select 
-            onChange={(e) => props.editPizzaValue(e)}
+            onChange={props.editPizzaValue}
             name='size'
             className="form-control"
             value={size}>
@@ -32,7 +32,7 @@ console.log("FORM", props.pizzas)
         <div className="col">
           <div className="form-check">
             <input 
-              onChange={(e) => props.editPizzaValue(e)}
+              onChange={props.editPizzaValue}
               name='vegetarian'
               type="radio" 
               className="form-check-input" 
@@ -44,7 +44,7 @@ console.log("FORM", props.pizzas)
           </div>
           <div className="form-check">
             <input 
-              onChange={(e) => props.editPizzaValue(e)}
+              onChange={props.editPizzaValue}
               name='vegetarian'
               type="radio" 
               className="form-check-input" 
